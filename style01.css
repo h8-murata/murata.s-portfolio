@@ -328,7 +328,7 @@ h1{
   width:100%;
   height: 100vh;
   /*背景画像設定*/
-  background:url("https://h8-murata.github.io/murata.s-portfolio/img3.jpg") no-repeat center;
+  background:url("https://h8-murata.github.io/murata.s-portfolio/img/img3.jpg") no-repeat center;
   background-size:cover;
 }
 
@@ -394,17 +394,50 @@ ul{
 }
 
 .skill-1 {
-  background: no-repeat center/80% url("https://h8-murata.github.io/murata.s-portfolio/VBA_logo.png");
-  width:200px;
-  height:200px;
+  background: no-repeat center/80% url("https://h8-murata.github.io/murata.s-portfolio/img/VBA_logo.png");
+  width:150px;
+  height:150px;
   margin-right: 30px;
 }
 
 .skill-2 {
-  background: no-repeat center/80% url("https://h8-murata.github.io/murata.s-portfolio/oracleJavaSilver.png");
-  width: 200px;
-  height: 200px;
+  background: no-repeat center/80% url("https://h8-murata.github.io/murata.s-portfolio/img/oracleJavaSilver.png");
+  width: 150px;
+  height: 150px;
 }
+
+/* photo-galleryのレイアウト */
+.pic-box {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#photo {
+  margin: 2px;
+}
+
+#photo img {
+  width: 150px;
+  height: 150px
+
+}
+
+a.photo {
+  display: block;
+  height: 150px;
+}
+
+
+#photo a:hover {
+  opacity: 0.8;
+}
+
+
+
+
 
 /* contactフォームのレイアウト */
 .contact-form {
