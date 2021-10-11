@@ -1,5 +1,5 @@
 //画像のモーダル
-$(".gallery").modaal({
+$(".gallery").modal({
   type: 'image',
   overlay_close:true,//モーダル背景クリック時に閉じるか
   before_open:function(){// モーダルが開く前に行う動作
