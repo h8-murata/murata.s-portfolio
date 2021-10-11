@@ -1,1 +1,0 @@
-# murata.s-portfolio
