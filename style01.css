@@ -386,7 +386,7 @@ h1{
 ul{
   position: fixed;
   top: 63%;
-  left: 50%;
+  left: 47%;
   transform: translateY(-50%) translateX(-50%);
 }
 
@@ -403,7 +403,7 @@ ul{
 /* スマホ画面 */
 @media screen and (max-width: 540px) {
   ul {
-    width: 80%;
+    left: 46%;
   }
 }
 
