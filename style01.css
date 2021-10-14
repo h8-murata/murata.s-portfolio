@@ -444,6 +444,21 @@ ul{
   height: 150px;
 }
 
+/* PC画面 */
+@media (min-width: 1025px) {
+
+}
+
+/* タブレット画面 */
+@media (min-width: 541px) and (max-width: 1024px) {
+
+}
+
+/* スマホ画面 */
+@media screen and (max-width: 540px) {
+
+}
+
 /* photo-galleryのレイアウト */
 .pic-box {
   display: flex;
@@ -473,12 +488,107 @@ a.gallery {
   opacity: 0.8;
 }
 
+@media (min-width: 1025px) {
+
+}
+
+@media (min-width: 541px) and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 540px) {
+
+}
 
 
 
 
 /* contactフォームのレイアウト */
-.contact-form {
+.contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid 1px #ddd;
+  text-align: center;
+}
+
+.contact span {
+  display:  inline-block;
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+  width: 2em;
+  line-height: 2em;
+  border-radius: 50%;
+  text-align: center;
+  background: linear-gradient(-150deg, #eeeeee, #BEC0FF);
+  color: #fff;
+}
+
+
+.contact h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.contact a {
+  display: block;
+  margin: 0;
+  padding: 20px;
+  text-decoration: none;
+  color:#333;
+}
+
+.contact a:hover {
+  color: #ddd;
+  opacity: 0.8;
+}
+
+@media (min-width: 1025px) {
+  .contact-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact {
+    width: 300px;
+  }
+
+  .contact:first-child {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 1024px) {
+  .contact-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact {
+    width: 300px;
+  }
+
+  .contact:first-child {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .contact-wrap {
+    display: block;
+    margin: 0;
+  }
+
+  .contact {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .contact:first-child {
+    margin-bottom: 10px;
+  }
+}
+
+/* .contact-form {
   width: 50%;
   margin: 0 auto;
 }
@@ -507,7 +617,7 @@ input,textarea {
 input.button {
   padding: 5px 10px;
   border-radius: 3px;
-}
+} */
 
 /* フッターのレイアウト */
 footer{
@@ -526,4 +636,16 @@ footer{
 .copyright{
   width: 100%;
   text-align: center;
+}
+
+@media (min-width: 1025px) {
+
+}
+
+@media (min-width: 541px) and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 540px) {
+
 }
