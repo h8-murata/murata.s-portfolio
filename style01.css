@@ -392,12 +392,16 @@ ul{
 
 /* PC画面 */
 @media (min-width: 1025px) {
-
+  ul {
+    left: 50%;
+  }
 }
 
 /* タブレット画面 */
 @media (min-width: 541px) and (max-width: 1024px) {
-
+  ul {
+    left: 58%;
+  }
 }
 
 /* スマホ画面 */
