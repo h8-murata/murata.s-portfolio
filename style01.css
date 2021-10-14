@@ -374,9 +374,24 @@ h1{
 }
 
 @media screen and (max-width:768px){
-.header,.header:before{
+/* .header,.header:before{
   height: 90vh;
+} */
 }
+
+/* PC画面 */
+@media (min-width: 1025px) {
+
+}
+
+/* タブレット画面 */
+@media (min-width: 541px) and (max-width: 1024px) {
+
+}
+
+/* スマホ画面 */
+@media screen and (max-width: 540px) {
+
 }
 
 /* ナビゲーションメニューのレイアウト */
@@ -401,11 +416,7 @@ ul{
 }
 
 /* area-1のレイアウト */
-#area-1 {
-  width: 50%;
-  margin: 0 auto;
 
-}
 
 #area-1 p {
   text-align: left;
@@ -446,17 +457,27 @@ ul{
 
 /* PC画面 */
 @media (min-width: 1025px) {
+  #area-1 {
+    width: 50%;
+    margin: 0 auto;
 
+  }
 }
 
 /* タブレット画面 */
 @media (min-width: 541px) and (max-width: 1024px) {
-
+  #area-1 {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 /* スマホ画面 */
 @media screen and (max-width: 540px) {
-
+  #area-1 {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 /* photo-galleryのレイアウト */
@@ -500,7 +521,25 @@ a.gallery {
 
 }
 
+/* area-3のレイアウト */
 
+/* PC画面 */
+@media (min-width: 1025px) {
+
+}
+
+/* タブレット画面 */
+@media (min-width: 541px) and (max-width: 1024px) {
+
+}
+
+/* スマホ画面 */
+@media screen and (max-width: 540px) {
+  #area-3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 
 
 /* contactフォームのレイアウト */
@@ -626,26 +665,52 @@ footer{
   font-family: 'Roboto Mono', monospace, sans-serif;
 }
 
-.foot-container{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 30px;
-}
-
-.copyright{
-  width: 100%;
-  text-align: center;
-}
-
 @media (min-width: 1025px) {
+  .foot-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 30px;
+  }
 
+  .copyright{
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media (min-width: 541px) and (max-width: 1024px) {
+  .foot-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 30px;
+  }
 
+  .copyright{
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 540px) {
+  .foot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 
+  }
+
+  .footA {
+    margin: 0 auto;
+  }
+
+  .footA h2 {
+    font-size: 20px;
+  }
+
+  .footB{
+    text-align: left;
+    margin: 0 auto;
+  }
 }
