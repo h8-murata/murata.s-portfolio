@@ -386,14 +386,14 @@ h1{
 ul{
   position: fixed;
   top: 63%;
-  left: 47%;
+  left: 49%;
   transform: translateY(-50%) translateX(-50%);
 }
 
 /* PC画面 */
 @media (min-width: 1025px) {
   ul {
-    left: 48%;
+
   }
 }
 
