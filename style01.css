@@ -313,18 +313,6 @@ _:-ms-lang(x), .js-pagetop a::before{
   background:#666;
 }
 
-/*確認を促すモーダル：タイトルの色を変更したい場合*/
-#modaal-title{
-  font-size:1.2rem;
-  text-align: center;
-  margin: 0 0 20px 0;
-}
-
-/*動画表示のモーダル：余白を変更したい場合*/
-.modaal-video .modaal-inner-wrapper{
-  padding:0;
-}
-
 
 
 
@@ -400,6 +388,23 @@ ul{
   top: 63%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
+}
+
+/* PC画面 */
+@media (min-width: 1025px) {
+
+}
+
+/* タブレット画面 */
+@media (min-width: 541px) and (max-width: 1024px) {
+
+}
+
+/* スマホ画面 */
+@media screen and (max-width: 540px) {
+  ul {
+    width: 80%;
+  }
 }
 
 /* 全セクションのレイアウト*/
@@ -577,8 +582,9 @@ a.gallery {
 }
 
 .contact a:hover {
-  color: #ddd;
-  opacity: 0.8;
+  background: #666;
+  color: #eee;
+  opacity: 1;
 }
 
 @media (min-width: 1025px) {
