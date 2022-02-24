@@ -553,6 +553,7 @@ a.gallery {
 
 /* contactフォームのレイアウト */
 .contact {
+  color: #333;
   margin-top: 20px;
   margin-bottom: 20px;
   border: solid 1px #ddd;
