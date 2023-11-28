@@ -464,7 +464,13 @@ ul{
 }
 
 .skill-2 {
-  background: no-repeat center/80% url("https://h8-murata.github.io/murata.s-portfolio/bgimg-etc/oracleJavaSilver.png");
+  background: no-repeat center/80% url("https://h8-murata.github.io/murata.s-portfolio/bgimg-etc/JapanCert-OCP-Silver.gif");
+  width: 150px;
+  height: 150px;
+}
+
+.skill-3 {
+  background: no-repeat center/80% url("https://h8-murata.github.io/murata.s-portfolio/bgimg-etc/JapanCert-OCP-Gold.gif");
   width: 150px;
   height: 150px;
 }
